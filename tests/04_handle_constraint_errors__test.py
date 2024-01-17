@@ -8,7 +8,7 @@ from api.neo4j import get_driver
 
 email = str(random.randint(1, 10000)) + "@neo4j.com"
 password = "letmein"
-name = "Random User"
+name = "Graph User"
 
 @pytest.fixture(autouse=True)
 def before_all(app):
